@@ -2,7 +2,7 @@ package monitores.ejer3;
 
 import java.util.Random;
 
-public class Sala extends Thread{
+public class Sala {
 
     private final int tUmbral=30;
     private final int nMaxPersonasNormalT=50;

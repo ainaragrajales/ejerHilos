@@ -16,7 +16,7 @@ public class Main {
 
         cestaMangasCapacidad = new Semaphore(CAPACIDADMANGAS);
         cestaMangasCantidad = new Semaphore(0);
-        cestaCuerposCapacidad= new Semaphore(CAPACIDADMANGAS);
+        cestaCuerposCapacidad= new Semaphore(CAPACIDADCUERPOS);
         cestaCuerposCantidad = new Semaphore(0);
         fabMangas = new FabricanteMangas(cestaMangasCapacidad, cestaMangasCantidad);
         fabCuerpos = new FabricanteCuerpos(cestaCuerposCapacidad, cestaCuerposCantidad);
